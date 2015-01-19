@@ -8,13 +8,13 @@
 
 <body>
 	<div ng-controller = "MyController">
-		<span><h1>{{lemons.name}}</h1></span>
-		<p>{{lemons.snippet}}</p>
+		<span><h1>{{lemon.name}}</h1></span>
+		<p>{{lemon.snippet}}</p>
 	</div>
 
 <script>
 	function MyController($scope) {
-		$scope.lemons = [
+		$scope.lemon = [
 			{'name' : 'Lemon',
 			 'snippet' : 'You squeeze this in the eyes.'},
 			{'name' : 'Lime',
